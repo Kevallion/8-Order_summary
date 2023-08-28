@@ -1,0 +1,148 @@
+/***************** FONT *********************/
+@font-face {
+  font-family: "RedHat";
+  src: url(../fonts/RedHatDisplay-VariableFont_wght.ttf);
+}
+/**************** COLOR ********************/
+/*************** GENERAL PARAMETER ************/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: hsl(225, 100%, 94%);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  font-family: RedHat, sans-serif;
+}
+body .pattern {
+  background: url(../images/pattern-background-desktop.svg) center/cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -4;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.499);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+main {
+  min-width: 367px;
+  max-width: 400px;
+  background: white;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+}
+main .main-container .heading {
+  border-radius: 20px 20px 0 0;
+  background: url(/assets/images/illustration-hero.svg) center/cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 200px;
+}
+main .main-container .content {
+  padding: 40px;
+}
+main .main-container .content h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+main .main-container .content p {
+  margin: 20px 0 20px;
+  width: 85%;
+  display: inline-block;
+}
+main .main-container .content .subscribe-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: hsl(225, 100%, 98%);
+  height: 60px;
+  text-align: left;
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+main .main-container .content .subscribe-plan div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .main-container .content .subscribe-plan div img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+main .main-container .content .subscribe-plan div #bold {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+main .main-container .content .subscribe-plan a {
+  font-weight: 700;
+}
+main .main-container .content .subscribe-plan a:hover {
+  text-decoration: none;
+}
+main .main-container .content .subscribe-plan div div, main .main-container .content .subscribe-plan img {
+  display: inline-block;
+}
+main .main-container .content button {
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  background: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+main .main-container .content button:hover {
+  background: hsla(245, 75%, 52%, 0.701);
+}
+main .main-container .content #cancel {
+  text-decoration: none;
+  margin-top: 20px;
+  display: block;
+  font-weight: 700;
+}
+main .main-container .content #cancel:hover {
+  font-weight: 900;
+}/*# sourceMappingURL=styles.css.map */

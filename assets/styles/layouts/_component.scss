@@ -1,0 +1,97 @@
+main{
+    min-width: 367px;
+    max-width: 400px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    .main-container{
+        .heading{
+            border-radius: 20px 20px 0 0;
+            background: url(/assets/images/illustration-hero.svg) center/cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 200px;
+        }
+        .content{
+            padding: 40px;
+            h1{
+                font-size: 1.5rem;
+                font-weight: 900;
+                color: $darkBlue;
+            }
+
+            p{
+                margin: 20px 0 20px;
+                width: 85%;
+                display: inline-block;
+            }
+            .subscribe-plan{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: $veryPaleBlue;
+                height: 60px;
+                text-align: left;
+                padding: 40px 20px;
+                border-radius: 15px;
+                div{
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        height: 40px;
+                        width: 40px;
+                        margin-right: 20px;
+                    }
+
+                    #bold{
+                        font-weight: 900;
+                        color: $darkBlue;
+                    }
+                }
+
+                
+                a{
+                    font-weight: 700;
+
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+                div div, img{
+                    display: inline-block;
+                }
+
+
+            }
+
+            button{
+                margin-top: 30px;
+                border-radius: 10px;
+                border: none;
+                height: 40px;
+                width: 100%;
+                background:$bright ;
+                color: white;
+                font-weight: 700;
+                cursor: pointer;
+                transition: 0.3s ease;
+                &:hover{
+                    background: hsla(245, 75%, 52%, 0.701);;
+                }
+            }
+
+            #cancel{
+                text-decoration: none;
+                margin-top: 20px;
+                display: block;
+                font-weight: 700;
+                &:hover{
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
