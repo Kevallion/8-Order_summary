@@ -58,7 +58,7 @@ main {
 }
 main .main-container .heading {
   border-radius: 20px 20px 0 0;
-  background: url(/assets/images/illustration-hero.svg) center/cover;
+  background: url(../images/illustration-hero.svg) center/cover;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 200px;
